@@ -1,0 +1,42 @@
+:root{
+    --firstcolor: #90ee90;
+    --fontsize: curr
+}
+.input-login{
+    width: 200px;
+    height: 20px;
+    border-radius: 2px;
+    border: solid 3px gray;
+  
+}
+
+.input-login :hover{
+    border-radius: 2px;
+    border: solid 2px;
+    background-color: white;
+}
+
+
+.encabezado-login{
+   width: 60%;
+   height: 200px;
+   margin: 5% 20% 1% 20%;
+}
+
+
+.body-login{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-login{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 2px;
+    border: solid 3px gray;
+    display:flex;
+   justify-content: center;
+  align-items: center;
+}
