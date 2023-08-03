@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
 
-        <header class="encabezado-login">
-            <hr>
-            <h1>Login System</h1>
-            <hr>
-        </header>
+    <div class="container">
+        <div class="screen">
+            <div class="screen__content">
 
-        <section class="body-login">
-                <form action="" class="form-login">
-                    <label for="">Name</label>
-                    <input class="input-login" type="text" placeholder="joe@example"/>
-
-                    <label for="">Password</label>
-                    <input class="input-login" type="number" placeholder="********"/>
-                    <br>
-
-                    <button class="btn-login"> Sig In</button>
+                <form class="login">
+                    <div class="login__field">
+                        <i class="login__icon fas fa-user"></i>
+                        <input type="text" class="login__input" placeholder="User name / Email">
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-lock"></i>
+                        <input type="password" class="login__input" placeholder="Password">
+                    </div>
+                    <button class="button login__submit">
+                        <span class="button__text">Log In Now</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>
                 </form>
-        </section>
-    
-
-        <footer>
-            <tbody>
-                <table></table>
-            </tbody>
-        </footer>
+                
+                <div class="social-login">
+                    <h3>SISM</h3>
+                    <h4>Sistema Inventario Source Meridian</h4>
+                </div>
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>
+        </div>
+    </div>
 
 </body>
+
 </html>
