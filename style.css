@@ -1,6 +1,9 @@
 :root{
     --firstcolor: #90ee90;
-    --fontsize: curr
+    --font-family: segoe-vf,sans-serif;
+}
+h1{
+    font-family: var(--font-family);
 }
 .input-login{
     width: 200px;
@@ -39,4 +42,5 @@
     display:flex;
    justify-content: center;
   align-items: center;
+  font-family: var(--font-family);
 }
