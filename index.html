@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
@@ -17,20 +17,24 @@
                 <form class="login">
                     <div class="login__field">
                         <i class="login__icon fas fa-user"></i>
-                        <input type="text" class="login__input" placeholder="User name / Email">
+                        <input id="name" class="login__input" placeholder="User name / Email">
                     </div>
+
                     <div class="login__field">
                         <i class="login__icon fas fa-lock"></i>
-                        <input type="password" class="login__input" placeholder="Password">
+                        <input type="password" id="pwd" class="login__input" placeholder="Password">
                     </div>
-                    <button class="button login__submit">
-                        <span class="button__text">Log In Now</span>
+
+                    <button type="submit" onclick="validarlogin(alert('hola'))" class="button login__submit">
+                        <span class="button__text" >Log In Now</span>
                         <i class="button__icon fas fa-chevron-right"></i>
                     </button>
+                    
                 </form>
                 
                 <div class="social-login">
                     <h3>SISM</h3>
+
                     <h4>Sistema Inventario Source Meridian</h4>
                 </div>
             </div>
@@ -42,6 +46,8 @@
             </div>
         </div>
     </div>
+
+    <script src="js/login.js"></script>
 
 </body>
 
