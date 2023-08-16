@@ -322,7 +322,7 @@ input[type=text], select {
   }
   
   li a {
-	display: block;
+	display: inline-block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
@@ -331,8 +331,28 @@ input[type=text], select {
   
   li a:hover:not(.active) {
 	background-color: #111;
+	border-radius: 4px;
+	
   }
   
   .active {
 	background-color: #04AA6D;
+	border-radius: 4px;
+  }
+
+
+  @media  screen and (max-width: 800px) {
+	.container-nav li a{
+		min-inline-size: 200px;
+  		display: inline-block;
+		 
+	  }
+
+	  .container-nav li {
+		min-inline-size: 200px;
+  		display: inline-block;
+		  flex-flow: column;
+	  }
+	
+
   }
